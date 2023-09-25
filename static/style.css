@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: powderblue;
+    font-family: Roboto, sans-serif;
+}
+
+h2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    /* Put the element into the center */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.wordInput {
+    border-radius: 10px;
+    /* border: 0; */
+    margin: 3px;
+    padding: 4px;
+}
+
+.story {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit {
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 0;
+}
+
+.inputForm {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+}

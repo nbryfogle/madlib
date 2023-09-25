@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Madlib Generator</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+
+  <body>
+    <h2>Welcome to Noah B's Madlib Generator</h2>
+
+    {% block content %}
+    <form action="" method="get" class="inputForm">  
+        <p>
+          {% for key, value in madlib.items() %}
+              <br>Enter a {{value}}: <input type="text" name="{{key}}" class="wordInput">
+          {% endfor %}
+          
+          <br><input type="submit" value="Go!" class="submit">
+        </p>
+      </form>
+
+      <p class="story">
+          {{story}}
+      </p>
+    {% endblock %}
+  </body>
+</html>
